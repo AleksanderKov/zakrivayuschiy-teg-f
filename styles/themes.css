@@ -19,8 +19,9 @@
       --shadow-leble: #fff;
       --button-text: #fff;
       --button-text-hover: #fff;
-      --button-svg-hover: #fff;
       --heart-color: #f00;
+      --heart-color-hover: #000;
+      --text-color-animation: #fff;
     }
   }
   
@@ -38,8 +39,9 @@
     --shadow-leble: #fff;
     --button-text: #fff;
     --button-text-hover: #fff;
-    --button-svg-hover: #fff;
     --heart-color: #f00;
+    --heart-color-hover: #000;
+    --text-color-animation: #fff;
   }
   
   @media (prefers-color-scheme: dark) {
@@ -57,8 +59,9 @@
       --shadow-leble: #000;
       --button-text: #00cc14;
       --button-text-hover: #000;
-      --button-svg-hover: #000;
       --heart-color: #f00;
+      --heart-color-hover: #00cc14;
+      --text-color-animation: #00cc14;
     }
   }
   
@@ -76,7 +79,8 @@
     --shadow-leble: #000;
     --button-text: #00cc14;
     --button-text-hover: #000;
-    --button-svg-hover: #000;
     --heart-color: #f00;
+    --heart-color-hover: #00cc14;
+    --text-color-animation: #00cc14;
   }
   
