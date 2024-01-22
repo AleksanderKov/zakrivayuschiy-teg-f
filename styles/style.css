@@ -208,8 +208,7 @@
   font-weight: var(--basic-font-weight);
   cursor: pointer;
   transition: box-shadow 0.3s ease;
-  appearance: none;    
-  
+  appearance: none;
 }
 
 .button:focus {
@@ -229,7 +228,6 @@
   transform: scaleX(0);
   inline-size: 100%;
   block-size: 100%;
-  transform-origin: 0;
   transition: transform 0.5s ease-in-out;
   transform-origin: left;
 }
