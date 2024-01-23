@@ -289,7 +289,7 @@
   transform-origin: center;
 }
 
-.like-icon.is-liked .heart{
+.like-icon.is-liked .heart {
   animation: heart 0.3s ease-in 0.1s 1 alternate;
 }
 
