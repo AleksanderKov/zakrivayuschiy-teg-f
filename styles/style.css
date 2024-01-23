@@ -143,6 +143,8 @@
 .card-img {
   inline-size: 100%;
   object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .card-block__content {
@@ -217,7 +219,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px var(--accent-color);
-  transition: box-shadow 0.3s;
 }
 
 .button::before {
@@ -282,10 +283,13 @@
 
 .sparks {
   fill: none;
-  transition: fill 0.3s 0.03s linear;
 }
 
-.like-icon.is-liked {
+.like-icon .heart {
+  transform-origin: center;
+}
+
+.like-icon.is-liked .heart{
   animation: heart 0.3s ease-in 0.1s 1 alternate;
 }
 
@@ -314,14 +318,14 @@
   transition: fill 0.3s linear;
 }
 
-.card__icon:active .main-body {
+.like-icon:active .main-body {
   fill: var(--heart-color);
   transition: fill 0.3s 0.05s linear;
 }
 
-.card__icon:active .core {
+.like-icon:active .core {
   fill: var(--heart-color);
-  transition: fill 0.3s 0.05s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .sparks {
@@ -438,11 +442,6 @@
   .modal {
     padding: 25px 30px;
     max-inline-size: 355px;
-  }
-
-  .card-img {
-    inline-size: 100%;
-    display: block;
   }
 
   .lable {
